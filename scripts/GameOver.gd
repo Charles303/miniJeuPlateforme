@@ -1,4 +1,4 @@
-extends StaticBody2D
+extends Node
 
 
 # Declare member variables here. Examples:
@@ -16,7 +16,5 @@ func _ready():
 #	pass
 
 
-func _on_Area2D_body_shape_entered(body_id, body, body_shape, area_shape):
-	if (body.get_name() == "Player"):
-		print("Gagné")
-		get_tree().change_scene("res://scenes/PartieGagné.tscn")
+func _on_Button_pressed():
+	get_tree().change_scene("res://scenes/Niveau1.tscn")

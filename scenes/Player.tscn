@@ -10,3 +10,16 @@ polygon = PoolVector2Array( -16, -16, -16, 16, 16, 16, 16, -16 )
 
 [node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="."]
 polygon = PoolVector2Array( -16, -16, -16, 16, 16, 16, 16, -16 )
+
+[node name="Camera2D" type="Camera2D" parent="."]
+current = true
+
+[node name="Label" type="Label" parent="."]
+margin_left = 384.0
+margin_top = -264.0
+margin_right = 424.0
+margin_bottom = -250.0
+text = "Vie :"
+__meta__ = {
+"_edit_use_anchors_": false
+}
